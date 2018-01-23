@@ -1,4 +1,3 @@
-/// <reference path="../../node_modules/@types/hammerjs/index.d.ts" />
 import {
   NguCarouselItemDirective,
   NguCarouselNextDirective,
@@ -28,7 +27,7 @@ import {
 } from '@angular/core';
 
 import { NguCarousel, NguCarouselStore } from './ngu-carousel.interface';
-import { isPlatformBrowser, isPlatformServer } from '@angular/common';
+import { isPlatformBrowser } from '@angular/common';
 import { Subscription } from 'rxjs/Subscription';
 
 @Component({
