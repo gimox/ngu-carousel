@@ -1,13 +1,12 @@
 {
     "name": "ngu-carousel",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "Angular Universal carousel",
     "scripts": {
         "transpile": "ngc ",
         "package": "rollup -c",
         "minify": "uglifyjs dist/bundles/ngucarousel.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ngucarousel.umd.min.js",
-        "build": "npm run transpile && npm run package && npm run minify",
-        "postinstall": "npm run build"
+        "build": "npm run transpile && npm run package && npm run minify"
     },
     "devDependencies": {
         "@angular/compiler": "^5.2.1",
